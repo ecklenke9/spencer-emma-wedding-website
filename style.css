@@ -1,15 +1,15 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(229, 221, 208);
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(229, 221, 208);
 }
 
 html {
@@ -182,15 +182,60 @@ section {
     justify-content: center;
     height: inherit;
     width: inherit;
-    margin: auto 0;
+    position: relative;
 }
 
 .section__text {
-    display: flex;
     justify-content: center;
-    padding: 10px;
+    position: absolute;
+    top: 16rem;
 }
 
 .section__text__p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.section__text__2 {
+    padding: 75px;
+    justify-content: center;
+}
+
+.section__text__p2 {
     color: rgb(59, 49, 22);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section__pic-container__2 {
+    display: flex;
+    gap: 2rem;
+    height: inherit;
+    width: inherit;
+    justify-content: center;
+}
+
+.section__text__3 {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.section__text__p3 {
+    color: rgb(59, 49, 22);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section__text__4 {
+    padding-bottom: 100px;
+}
+
+.section__text__p4 {
+    padding: 15px;
+    color: rgb(59, 49, 22);
+    font-size: 1rem;
+    font-weight: 200;
+    word-spacing: 3px;
+    line-height: 1.8;
 }

@@ -189,6 +189,7 @@ a:hover {
     justify-content: center;
     color: rgb(59, 49, 22);
     font-size: 2rem;
+    font-weight: 200;
     text-align: center;
 }
 
@@ -231,4 +232,109 @@ section {
     font-weight: 200;
     word-spacing: 3px;
     line-height: 1.8;
+}
+
+/* Wedding Section */
+
+#wedding {
+    justify-content: stretch;
+    height: 80vh;
+    padding-top: 375px;
+}
+
+.wedding__pic-container {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.wedding__text {
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+}
+
+.wedding__text__p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.wedding-info {
+    gap: 10rem;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.reception {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reception-text {
+    font-size: 2rem;
+    color: rgb(59, 49, 22);
+}
+
+.reception-rhubarb-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+    padding-bottom: 5px;
+}
+
+.rhubarb-address-text {
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+}
+
+.reception-rhubarb-address-1-text {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.reception-rhubarb-address-2-text {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.dress-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.dress-code-text {
+    font-size: 2rem;
+    color: rgb(59, 49, 22);
+}
+
+.cocktail-party-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+.color-scheme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-scheme-text {
+    font-size: 2rem;
+    color: rgb(59, 49, 22);
+}
+
+.color-scheme-spring-neutral-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
 }

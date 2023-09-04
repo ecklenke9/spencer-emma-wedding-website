@@ -47,11 +47,17 @@
     }
     .cover-text{
         top: 8rem;
-        width: max-content;
     }
     .cover-text-p1 {
-        font-size: 1rem;
+        visibility: hidden;
+        height: 0px;
     }
+    .cover-text-p2 {
+        visibility: visible;
+        height: inherit;
+        padding-left: 1.2rem;
+    }
+
     .cover-text-2{
         padding: .5rem 1rem .5rem 1rem;
         font-size: 1.4rem;

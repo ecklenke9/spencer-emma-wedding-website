@@ -161,10 +161,9 @@ a:hover {
 #cover{
     justify-content: stretch;
     height: 80vh;
-    padding-bottom: 100px;
 }
 
-.cover__pic-container {
+.cover-pic-container {
     display: flex;
     justify-content: center;
     height: inherit;
@@ -172,19 +171,19 @@ a:hover {
     position: relative;
 }
 
-.cover__text {
+.cover-text {
     justify-content: center;
     position: absolute;
     top: 16rem;
 }
 
-.cover__text__p1 {
+.cover-text-p1 {
     color: white;
     font-size: 2rem;
     font-weight: 200;
 }
 
-.cover__text__2 {
+.cover-text-2 {
     padding: 95px;
     justify-content: center;
     color: rgb(59, 49, 22);
@@ -201,11 +200,11 @@ section {
 
 /* Our Story Section */
 
-#our-story {
+#our-story-section {
     padding: 150px;
 }
 
-.our-story__pic-container {
+.our-story-pic-container {
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -213,7 +212,7 @@ section {
     width: inherit;
 }
 
-.our-story__title {
+.our-story-title {
     display: flex;
     padding-top: 50px;
     color: rgb(59, 49, 22);
@@ -221,11 +220,11 @@ section {
     justify-content: center;
 }
 
-.our-story__text__4 {
+.our-story-text-4 {
     padding-bottom: 100px;
 }
 
-.our-story__text__p4 {
+.our-story-text-p4 {
     padding: 15px;
     color: rgb(59, 49, 22);
     font-size: 1rem;
@@ -236,13 +235,13 @@ section {
 
 /* Wedding Section */
 
-#wedding {
+#wedding-section {
     justify-content: stretch;
     height: 80vh;
     padding-top: 375px;
 }
 
-.wedding__pic-container {
+.wedding-pic-container {
     display: flex;
     justify-content: center;
     height: inherit;
@@ -251,13 +250,13 @@ section {
     padding-bottom: 80px;
 }
 
-.wedding__text {
+.wedding-text {
     justify-content: center;
     position: absolute;
     top: 16rem;
 }
 
-.wedding__text__p1 {
+.wedding-text-p1 {
     color: white;
     font-size: 2rem;
     font-weight: 200;

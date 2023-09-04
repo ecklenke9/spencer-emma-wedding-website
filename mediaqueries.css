@@ -1,8 +1,96 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
+    #cover {
+        height: 83vh;
+        margin-bottom: 6rem;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+        height: 5rem;    
+        justify-content: space-between;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    /* Cover */
+    #cover {
+        display: block;
+        margin-bottom: 0rem;
+        height: 65vh;
+    }
+    section {
+        height: fit-content;
+        margin: 0 5%;
+    }
+    .cover-pic-container
+    {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .cover-text{
+        top: 8rem;
+        width: max-content;
+    }
+    .cover-text-p1 {
+        font-size: 1rem;
+    }
+    .cover-text-2{
+        padding: 5px;
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+    /* Our Story */
+    #our-story-section{
+        padding: .7rem;
+    }
+    .our-story-title{
+        padding-top: 0px;
+    }
+    .our-story-pic-container
+    {
+        width: 275px;
+        height: 400px;
+        margin: 0 auto 2rem;
+    }
+    .our-story-side-image{
+        visibility: hidden;
+    }
+    .our-story-middle-image{
+        height: 400px;
+    }
+    .our-story-text-4{
+        padding-bottom: 1rem;
+    }
+
+    /* Wedding */
+    #wedding-section {
+        padding-top: 0px;
+    }
+    .wedding-pic-container
+    {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        padding-bottom: 0px;
+    }
+    .wedding-text{
+        top: 8rem;
+        width: max-content;
+    }
+    .wedding-info{
+        gap: 4rem;
+        flex-direction: column;
+        padding-bottom: 5rem;
     }
 }

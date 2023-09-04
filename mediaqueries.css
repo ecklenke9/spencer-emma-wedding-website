@@ -7,6 +7,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
+    }
     #desktop-nav {
         display: none;
     }
@@ -24,8 +27,8 @@
     /* Cover */
     #cover {
         display: block;
-        margin-bottom: 0rem;
-        height: 65vh;
+        margin-bottom: .3rem;
+        height: 60vh;
     }
     section {
         height: fit-content;
@@ -33,9 +36,9 @@
     }
     .cover-pic-container
     {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+        height: 300px;
+        margin: 0 auto 1rem;
+        overflow-x: hidden;
     }
     .cover-text{
         top: 8rem;
@@ -45,7 +48,7 @@
         font-size: 1rem;
     }
     .cover-text-2{
-        padding: 5px;
+        padding: .5rem 1rem .5rem 1rem;
         font-size: 1.4rem;
         font-weight: 300;
     }
@@ -59,15 +62,15 @@
     }
     .our-story-pic-container
     {
-        width: 275px;
-        height: 400px;
-        margin: 0 auto 2rem;
+        height: 325px;
+        margin: 2rem auto 2rem;
+        overflow-x: hidden;
     }
     .our-story-side-image{
         visibility: hidden;
     }
     .our-story-middle-image{
-        height: 400px;
+        height: 325px;
     }
     .our-story-text-4{
         padding-bottom: 1rem;
@@ -76,13 +79,13 @@
     /* Wedding */
     #wedding-section {
         padding-top: 0px;
+        margin: 0px;
     }
     .wedding-pic-container
     {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+        height: 300px;
         padding-bottom: 0px;
+        overflow-x: hidden;
     }
     .wedding-text{
         top: 8rem;

@@ -23,7 +23,8 @@
         margin-top: 2.37rem;
         width: 44vh;
         opacity: 95%;
-        background-color: mistyrose;
+        background-color: rgb(172 186 99);
+        border-radius: 1rem;
     }
     .logo {
         font-size: 1.6rem;

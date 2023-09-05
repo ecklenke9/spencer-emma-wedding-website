@@ -1,13 +1,13 @@
 #wedding-section {
     justify-content: stretch;
-    height: 80vh;
+    height: inherit;
     padding-top: 375px;
 }
 
 .wedding-pic-container {
     display: flex;
     justify-content: center;
-    height: inherit;
+    height: 80vh;
     width: inherit;
     position: relative;
     padding-bottom: 80px;
@@ -148,7 +148,6 @@
     .wedding-pic-container
     {
         height: 300px;
-        padding-bottom: 0px;
         overflow-x: hidden;
     }
     .wedding-text{

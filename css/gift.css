@@ -1,13 +1,13 @@
 #gift-section {
     justify-content: stretch;
-    height: 80vh;
+    height: inherit;
     padding-top: 375px;
 }
 
 .gift-pic-container {
     display: flex;
     justify-content: center;
-    height: inherit;
+    height: 80vh;
     width: inherit;
     position: relative;
     padding-bottom: 80px;
@@ -52,4 +52,20 @@
 }
 
 @media screen and (max-width: 1200px) {
+    #gift-section {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .gift-pic-container  {
+        height: 300px;
+        padding-bottom: 0px;
+        overflow-x: hidden;
+    }
+
+    .gift-text {
+        top: 8rem;
+        width: max-content;
+    }
 }

@@ -1,9 +1,8 @@
 
 #travel-section {
     justify-content: stretch;
-    height: 80vh;
+    height: inherit;
     padding-top: 400px;
-    padding-bottom: 800px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -11,7 +10,7 @@
 .travel-pic-container {
     display: flex;
     justify-content: center;
-    height: inherit;
+    height: 80vh;
     width: inherit;
     position: relative;
 }
@@ -39,8 +38,8 @@
 
 .travel-info {
     gap: 5rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
     height: inherit;
     width: inherit;
@@ -85,4 +84,29 @@
 }
 
 @media screen and (max-width: 1200px) {
+    #travel-section {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .travel-info {
+        grid-template-columns: auto;
+    }
+
+    .travel-pic-container {
+        height: 300px;
+        padding-bottom: 0px;
+        overflow-x: hidden;
+    }
+
+    .travel-text {
+        top: 8rem;
+        width: max-content;
+    }
+
+    .hotel-images {
+        overflow-x: hidden;
+        height: 200px;
+    }
 }

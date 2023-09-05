@@ -1,0 +1,163 @@
+#wedding-section {
+    justify-content: stretch;
+    height: 80vh;
+    padding-top: 375px;
+}
+
+.wedding-pic-container {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.wedding-text {
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+}
+
+.wedding-text-p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.wedding-info {
+    gap: 10rem;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.wedding-info-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wedding-info-sub-title-text {
+    font-size: 2rem;
+    color: rgb(59, 49, 22);
+}
+
+.reception-rhubarb-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rhubarb-address-text {
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+    font-weight: 100;
+}
+
+.garden-party-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+.link-text {
+    padding-right: .3rem;
+}
+
+.idea-board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+    font-weight: 100;
+}
+
+.color-scheme-spring-neutral-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+.color-circle-section {
+    display: flex;
+    gap: .5rem;
+    padding-top: 15px;
+}
+
+.circle-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(190, 125, 119);
+}
+
+.circle-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(208, 169, 110);
+}
+
+.circle-3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(118, 117, 86);
+}
+
+.circle-4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(181, 158, 124);
+}
+
+.circle-5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(201, 187, 208, 1);
+}
+
+.circle-6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(136, 112, 84);
+}
+
+.circle-7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(182, 132, 69);
+}
+
+@media screen and (max-width: 1200px) {
+    #wedding-section {
+        padding-top: 0px;
+        margin: 0px;
+    }
+    .wedding-pic-container
+    {
+        height: 300px;
+        padding-bottom: 0px;
+        overflow-x: hidden;
+    }
+    .wedding-text{
+        top: 8rem;
+        width: max-content;
+    }
+    .wedding-info{
+        gap: 4rem;
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+}

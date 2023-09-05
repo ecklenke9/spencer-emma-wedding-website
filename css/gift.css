@@ -1,0 +1,46 @@
+#gift-section {
+    justify-content: stretch;
+    height: 80vh;
+    padding-top: 375px;
+}
+
+.gift-pic-container {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.gift-text {
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+}
+
+.gift-text-p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.gift-info {
+    gap: 10rem;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.gift-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+@media screen and (max-width: 1200px) {
+}

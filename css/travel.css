@@ -1,0 +1,66 @@
+
+#travel-section {
+    justify-content: stretch;
+    height: 80vh;
+    padding-top: 375px;
+}
+
+.travel-pic-container {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+
+.travel-text {
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+}
+
+.travel-text-p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.places-to-stay-title {
+    display: flex;
+    padding-top: 50px;
+    color: rgb(59, 49, 22);
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.travel-info {
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.hotel-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+.hotel-title-text-p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(59, 49, 22);
+}
+
+.hotel-address-text {
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1200px) {
+}

@@ -72,14 +72,22 @@
     padding-bottom: .5rem;
 }
 
-.hotel-address-text {
+.hotel-images {
+    height: 300px;
+}
+
+.linked-address {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2rem;
+}
+
+.link-text {
     font-size: 1rem;
     color: rgb(59, 49, 22);
     font-weight: 100;
-}
-
-.hotel-images {
-    height: 300px;
 }
 
 @media screen and (max-width: 1200px) {

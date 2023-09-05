@@ -30,7 +30,8 @@
 
 .places-to-stay-title {
     display: flex;
-    padding-top: 50px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     color: rgb(59, 49, 22);
     font-size: 2rem;
     justify-content: center;
@@ -62,8 +63,15 @@
     width: 20rem;
     text-align: center;
     color: rgb(59, 49, 22);
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     padding-top: 1rem;
+}
+
+.hotel-link {
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+    font-weight: 300;
+    padding-bottom: .5rem;
 }
 
 .hotel-address-text {

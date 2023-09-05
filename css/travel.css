@@ -3,6 +3,9 @@
     justify-content: stretch;
     height: 80vh;
     padding-top: 375px;
+    padding-bottom: 357px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .travel-pic-container {
@@ -40,6 +43,7 @@
     justify-content: center;
     height: inherit;
     width: inherit;
+    padding-top: 2rem;
 }
 
 .hotel-title-text {
@@ -49,12 +53,16 @@
     font-size: 1.5rem;
     font-weight: 100;
     color: rgb(59, 49, 22);
+    padding-bottom: 1rem;
 }
 
 .hotel-title-text-p {
     font-size: 1.5rem;
     font-weight: 100;
+    width: 20rem;
+    text-align: center;
     color: rgb(59, 49, 22);
+    padding-bottom: 1rem;
 }
 
 .hotel-address-text {

@@ -1,0 +1,60 @@
+#our-story-section {
+    height: inherit;
+    padding-bottom: 4rem;
+}
+
+.our-story-pic-container {
+    display: flex;
+    height: 70vh;
+    width: inherit;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.our-story-title {
+    display: flex;
+    color: rgb(59, 49, 22);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.our-story-text-4 {
+    padding: 0vh 30vh;
+}
+
+.our-story-text-p4 {
+    color: rgb(59, 49, 22);
+    font-size: 1rem;
+    font-weight: 200;
+    word-spacing: .19rem;
+    line-height: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #our-story-section{
+        padding-bottom: 2.5rem;
+    }
+    .our-story-title{
+        padding-bottom: 2.5rem;
+    }
+    .our-story-pic-container
+    {
+        height: 20.5rem;
+        overflow-x: hidden;
+        padding-bottom: 2.5rem;
+
+    }
+    .our-story-side-image{
+        visibility: hidden;
+    }
+    .our-story-middle-image{
+        height: 20.5rem;
+    }
+    .our-story-text-4{
+        padding: 0vh 0vh;
+        margin: 0rem 1.5rem;
+    }
+}

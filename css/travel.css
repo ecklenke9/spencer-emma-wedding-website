@@ -1,0 +1,119 @@
+
+#travel-section {
+    height: inherit;
+    justify-content: stretch;
+    padding-bottom: 4rem;
+}
+
+.travel-pic-container {
+    display: flex;
+    height: 80vh;
+    width: inherit;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.travel-text {
+    top: 16rem;
+    position: absolute;
+    justify-content: center;
+}
+
+.travel-text-p1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.places-to-stay-title {
+    display: flex;
+    color: rgb(59, 49, 22);
+    font-size: 2rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.travel-info {
+    display: grid;
+    height: inherit;
+    width: inherit;
+    gap: 3rem;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.hotel-title-text {
+    display: flex;
+    color: rgb(59, 49, 22);
+    font-size: 1.5rem;
+    font-weight: 100;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.hotel-title-text-p {
+    color: rgb(59, 49, 22);
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+}
+
+.hotel-link {
+    color: rgb(59, 49, 22);
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: .5rem;
+}
+
+.hotel-images {
+    height: 17.5rem;
+    width: 26.25rem;
+    background-size: cover;
+}
+
+.linked-address {
+    display: flex;
+    line-height: 1.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-text {
+    color: rgb(59, 49, 22);
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1200px) {
+    #travel-section {
+        margin: 0rem;
+    }
+
+    .travel-info {
+        grid-template-columns: auto;
+    }
+
+    .travel-pic-container {
+        height: 19rem;
+        overflow-x: hidden;
+        padding-bottom: 2.5rem;
+    }
+
+    .travel-text {
+        top: 8rem;
+        width: max-content;
+    }
+
+    .hotel-images {
+        height: 12.5rem;
+        width: 18.75rem;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+}

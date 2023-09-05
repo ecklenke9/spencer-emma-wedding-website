@@ -92,7 +92,7 @@
 
 @media screen and (max-width: 1200px) {
     #travel-section {
-        padding: 0rem 0rem 10rem 0rem;
+        padding: 0rem 0rem 4rem 0rem;
         margin: 0 0 0 0;
     }
 
@@ -103,7 +103,7 @@
 
     .travel-pic-container {
         height: 300px;
-        padding-bottom: 5rem;
+        padding-bottom: 2.5rem;
         overflow-x: hidden;
     }
 
@@ -115,5 +115,8 @@
     .hotel-images {
         overflow-x: hidden;
         height: 200px;
+    }
+    .places-to-stay-title {
+        padding-bottom: 2.5rem;
     }
 }

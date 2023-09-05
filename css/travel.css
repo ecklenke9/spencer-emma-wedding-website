@@ -2,9 +2,9 @@
 #travel-section {
     justify-content: stretch;
     height: inherit;
-    padding-top: 400px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 .travel-pic-container {
@@ -29,6 +29,7 @@
 
 .places-to-stay-title {
     display: flex;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     color: rgb(59, 49, 22);
     font-size: 2rem;
@@ -118,5 +119,6 @@
     }
     .places-to-stay-title {
         padding-bottom: 2.5rem;
+        padding-top: 0rem;
     }
 }

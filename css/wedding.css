@@ -142,13 +142,14 @@
 
 @media screen and (max-width: 1200px) {
     #wedding-section {
-        padding-top: 0px;
-        margin: 0px;
+        padding: 0rem 0rem 10rem 0rem;
+        margin: 0 0 0 0;
     }
     .wedding-pic-container
     {
         height: 300px;
         overflow-x: hidden;
+        padding-bottom: 5rem;
     }
     .wedding-text{
         top: 8rem;
@@ -157,6 +158,5 @@
     .wedding-info{
         gap: 4rem;
         flex-direction: column;
-        padding-bottom: 5rem;
     }
 }

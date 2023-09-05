@@ -29,7 +29,6 @@
 
 .places-to-stay-title {
     display: flex;
-    padding-top: 4rem;
     padding-bottom: 2rem;
     color: rgb(59, 49, 22);
     font-size: 2rem;
@@ -85,18 +84,18 @@
 
 @media screen and (max-width: 1200px) {
     #travel-section {
-        margin: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 0rem 0rem 10rem 0rem;
+        margin: 0 0 0 0;
     }
 
     .travel-info {
         grid-template-columns: auto;
+        padding: 0 0 0 0;
     }
 
     .travel-pic-container {
         height: 300px;
-        padding-bottom: 0px;
+        padding-bottom: 5rem;
         overflow-x: hidden;
     }
 

@@ -11,7 +11,7 @@
     width: inherit;
     position: relative;
     justify-content: center;
-    padding-bottom: 2.5rem;
+    padding-bottom: 4rem;
 }
 
 .travel-text {
@@ -31,7 +31,7 @@
     color: rgb(59, 49, 22);
     font-size: 2rem;
     justify-content: center;
-    padding-bottom: 2.5rem;
+    padding-bottom: 4rem;
 }
 
 .travel-info {
@@ -71,7 +71,9 @@
 }
 
 .hotel-images {
-    height: 19rem;
+    height: 17.5rem;
+    width: 26.25rem;
+    background-size: cover;
 }
 
 .linked-address {
@@ -110,6 +112,8 @@
 
     .hotel-images {
         height: 12.5rem;
+        width: 18.75rem;
+        background-size: cover;
         overflow-x: hidden;
     }
 }

@@ -2,8 +2,8 @@
 #travel-section {
     justify-content: stretch;
     height: 80vh;
-    padding-top: 375px;
-    padding-bottom: 357px;
+    padding-top: 400px;
+    padding-bottom: 800px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -63,12 +63,17 @@
     text-align: center;
     color: rgb(59, 49, 22);
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .hotel-address-text {
     font-size: 1rem;
     color: rgb(59, 49, 22);
     font-weight: 100;
+}
+
+.hotel-images {
+    height: 300px;
 }
 
 @media screen and (max-width: 1200px) {

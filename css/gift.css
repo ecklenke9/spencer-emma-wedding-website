@@ -63,12 +63,12 @@
 @media screen and (max-width: 1200px) {
     #gift-section {
         margin: 0 0 0 0;
-        padding: 0rem 0rem 5rem 0rem; 
+        padding: 0rem 0rem 4rem 0rem; 
     }
 
     .gift-pic-container  {
         height: 300px;
-        padding-bottom: 5rem;
+        padding-bottom: 2.5rem;
         overflow-x: hidden;
     }
 

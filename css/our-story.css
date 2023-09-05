@@ -33,16 +33,19 @@
 
 @media screen and (max-width: 1200px) {
     #our-story-section{
-        padding: .7rem;
+        padding: 0rem 0rem 2.5rem 0rem;
+        height: inherit;
     }
     .our-story-title{
         padding-top: 0px;
+        padding-bottom: 2.5rem;
     }
     .our-story-pic-container
     {
         height: 325px;
-        margin: 2rem auto 2rem;
         overflow-x: hidden;
+        padding: 2.5rem 0rem 2.5rem 0rem;
+
     }
     .our-story-side-image{
         visibility: hidden;
@@ -51,6 +54,10 @@
         height: 325px;
     }
     .our-story-text-4{
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
+    }
+    .our-story-text-p4 {
+        padding: 0rem;
+        margin: 0rem 1.5rem 0rem 1.5rem;
     }
 }

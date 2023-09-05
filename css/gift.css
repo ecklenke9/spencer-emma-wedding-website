@@ -42,5 +42,14 @@
     color: rgb(59, 49, 22);
 }
 
+.gift-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(59, 49, 22);
+    font-weight: 100;
+}
+
 @media screen and (max-width: 1200px) {
 }

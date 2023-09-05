@@ -36,7 +36,7 @@
 }
 
 .travel-info {
-    gap: 5rem;
+    gap: 3rem;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;

@@ -1,63 +1,60 @@
 #our-story-section {
-    padding: 0rem 11rem 11rem 11rem;
+    height: inherit;
+    padding-bottom: 4rem;
 }
 
 .our-story-pic-container {
     display: flex;
+    height: 70vh;
+    width: inherit;
     gap: 2rem;
     justify-content: center;
-    height: inherit;
-    width: inherit;
+    padding-bottom: 4rem;
 }
 
 .our-story-title {
     display: flex;
-    padding-top: 50px;
     color: rgb(59, 49, 22);
     font-size: 2rem;
+    padding-bottom: 4rem;
     justify-content: center;
 }
 
 .our-story-text-4 {
-    padding-bottom: 100px;
+    padding: 0vh 30vh;
 }
 
 .our-story-text-p4 {
-    padding: 15px;
     color: rgb(59, 49, 22);
     font-size: 1rem;
     font-weight: 200;
-    word-spacing: 3px;
-    line-height: 1.8;
+    word-spacing: .19rem;
+    line-height: 1.8rem;
+    padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 1200px) {
     #our-story-section{
-        padding: 0rem 0rem 2.5rem 0rem;
-        height: inherit;
+        padding-bottom: 2.5rem;
     }
     .our-story-title{
-        padding-top: 0px;
         padding-bottom: 2.5rem;
     }
     .our-story-pic-container
     {
-        height: 325px;
+        height: 20.5rem;
         overflow-x: hidden;
-        padding: 2.5rem 0rem 2.5rem 0rem;
+        padding-bottom: 2.5rem;
 
     }
     .our-story-side-image{
         visibility: hidden;
     }
     .our-story-middle-image{
-        height: 325px;
+        height: 20.5rem;
     }
     .our-story-text-4{
-        padding-bottom: 0rem;
-    }
-    .our-story-text-p4 {
-        padding: 0rem;
-        margin: 0rem 1.5rem 0rem 1.5rem;
+        padding: 0vh 0vh;
+        margin: 0rem 1.5rem;
     }
 }

@@ -1,24 +1,23 @@
 
 #travel-section {
-    justify-content: stretch;
     height: inherit;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 50px;
+    justify-content: stretch;
+    padding-bottom: 4rem;
 }
 
 .travel-pic-container {
     display: flex;
-    justify-content: center;
     height: 80vh;
     width: inherit;
     position: relative;
+    justify-content: center;
+    padding-bottom: 2.5rem;
 }
 
 .travel-text {
-    justify-content: center;
-    position: absolute;
     top: 16rem;
+    position: absolute;
+    justify-content: center;
 }
 
 .travel-text-p1 {
@@ -29,83 +28,79 @@
 
 .places-to-stay-title {
     display: flex;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
     color: rgb(59, 49, 22);
     font-size: 2rem;
     justify-content: center;
+    padding-bottom: 2.5rem;
 }
 
 .travel-info {
-    gap: 3rem;
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
     height: inherit;
     width: inherit;
-    padding-top: 2rem;
+    gap: 3rem;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 
 .hotel-title-text {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: rgb(59, 49, 22);
     font-size: 1.5rem;
     font-weight: 100;
-    color: rgb(59, 49, 22);
+    align-items: center;
+    flex-direction: column;
     padding-bottom: 1rem;
 }
 
 .hotel-title-text-p {
+    color: rgb(59, 49, 22);
+    width: 20rem;
     font-size: 1.5rem;
     font-weight: 100;
-    width: 20rem;
     text-align: center;
-    color: rgb(59, 49, 22);
     padding-bottom: .5rem;
     padding-top: 1rem;
 }
 
 .hotel-link {
-    font-size: 1rem;
     color: rgb(59, 49, 22);
+    font-size: 1rem;
     font-weight: 300;
     padding-bottom: .5rem;
 }
 
 .hotel-images {
-    height: 300px;
+    height: 19rem;
 }
 
 .linked-address {
-    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     line-height: 1.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .link-text {
-    font-size: 1rem;
     color: rgb(59, 49, 22);
+    font-size: 1rem;
     font-weight: 100;
 }
 
 @media screen and (max-width: 1200px) {
     #travel-section {
-        padding: 0rem 0rem 4rem 0rem;
-        margin: 0 0 0 0;
+        margin: 0rem;
     }
 
     .travel-info {
         grid-template-columns: auto;
-        padding: 0 0 0 0;
     }
 
     .travel-pic-container {
-        height: 300px;
-        padding-bottom: 2.5rem;
+        height: 19rem;
         overflow-x: hidden;
+        padding-bottom: 2.5rem;
     }
 
     .travel-text {
@@ -114,11 +109,7 @@
     }
 
     .hotel-images {
+        height: 12.5rem;
         overflow-x: hidden;
-        height: 200px;
-    }
-    .places-to-stay-title {
-        padding-bottom: 2.5rem;
-        padding-top: 0rem;
     }
 }

@@ -1,22 +1,22 @@
 #gift-section {
-    justify-content: stretch;
     height: inherit;
-    padding-bottom: 50px
+    justify-content: stretch;
+    padding-bottom: 4rem;
 }
 
 .gift-pic-container {
     display: flex;
-    justify-content: center;
     height: 80vh;
     width: inherit;
     position: relative;
-    padding-bottom: 80px;
+    justify-content: center;
+    padding-bottom: 4rem;
 }
 
 .gift-text {
-    justify-content: center;
-    position: absolute;
     top: 16rem;
+    position: absolute;
+    justify-content: center;
 }
 
 .gift-text-p1 {
@@ -26,20 +26,20 @@
 }
 
 .gift-info {
-    gap: 10rem;
     display: flex;
-    justify-content: center;
     height: inherit;
     width: inherit;
+    gap: 10rem;
+    justify-content: center;
 }
 
 .gift-title-text {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: rgb(59, 49, 22);
     font-size: 2rem;
     font-weight: 100;
-    color: rgb(59, 49, 22);
+    align-items: center;
+    flex-direction: column;
 
     .link-text {
         font-size: 1.5rem;
@@ -53,23 +53,22 @@
 
 .gift-link-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
     color: rgb(59, 49, 22);
+    font-size: 1rem;
     font-weight: 100;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {
     #gift-section {
-        margin: 0 0 0 0;
-        padding: 0rem 0rem 4rem 0rem; 
+        margin: 0rem;
     }
 
     .gift-pic-container  {
-        height: 300px;
-        padding-bottom: 2.5rem;
+        height: 19rem;
         overflow-x: hidden;
+        padding-bottom: 2.5rem;
     }
 
     .gift-text {

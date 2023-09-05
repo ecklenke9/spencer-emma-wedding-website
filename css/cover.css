@@ -1,21 +1,23 @@
 
 #cover{
+    height: inherit;
     justify-content: stretch;
-    height: 80vh;
+    padding-bottom: 4rem;
 }
 
 .cover-pic-container {
     display: flex;
-    justify-content: center;
-    height: inherit;
+    height: 80vh;
     width: inherit;
     position: relative;
+    justify-content: center;
+    padding-bottom: 4rem;
 }
 
 .cover-text {
-    justify-content: center;
-    position: absolute;
     top: 16rem;
+    position: absolute;
+    justify-content: center;
 }
 
 .cover-text-p1 {
@@ -26,58 +28,48 @@
 }
 
 .cover-text-p2 {
+    height: 0rem;
     color: white;
     font-size: 1.8rem;
     font-weight: 200;
     visibility: hidden;
-    height: 0px;
 }
 
-.cover-text-2 {
-    padding: 5rem 10rem 0rem 10rem;
+.invite-text{
+    display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: center;
     color: rgb(59, 49, 22);
     font-size: 2rem;
     font-weight: 200;
-    text-align: center;
-}
-
-.invite-text{
-    height: 16rem;
 }
 
 @media screen and (max-width: 1200px) {
     #cover {
-        display: block;
-        margin-bottom: 0rem;
-        height: inherit;
+        padding-bottom: 2.5rem;
     }
     .cover-pic-container
     {
-        height: 300px;
-        margin: 0;
-        padding-bottom: 2.5rem;
+        height: 19rem;
         overflow-x: hidden;
+        padding-bottom: 2.5rem;
     }
     .cover-text{
         top: 8rem;
     }
     .cover-text-p1 {
+        height: 0rem;
         visibility: hidden;
-        height: 0px;
     }
     .cover-text-p2 {
-        visibility: visible;
         height: inherit;
+        visibility: visible;
         padding-left: 1.2rem;
     }
-
-    .cover-text-2{
-        padding: .5rem 1rem .5rem 1rem;
+    .invite-text {
+        padding: 0rem 1rem;
         font-size: 1.4rem;
         font-weight: 300;
-    }
-    .invite-text{
-        height: 7rem;
     }
 }

@@ -1,10 +1,10 @@
-#gift-section {
+#rsvp-section {
     height: inherit;
     justify-content: stretch;
     padding-bottom: 4rem;
 }
 
-.gift-pic-container {
+.rsvp-pic-container {
     display: flex;
     height: 80vh;
     width: inherit;
@@ -13,19 +13,19 @@
     padding-bottom: 4rem;
 }
 
-.gift-text {
+.rsvp-text {
     top: 16rem;
     position: absolute;
     justify-content: center;
 }
 
-.gift-text-p1 {
+.rsvp-text-p1 {
     color: white;
     font-size: 2rem;
     font-weight: 200;
 }
 
-.collective-gift-info {
+.rsvp-info {
     display: flex;
     height: inherit;
     width: inherit;
@@ -33,21 +33,15 @@
     justify-content: center;
 }
 
-.gift-info {
-    display: flex;
-    height: inherit;
-    width: inherit;
-    gap: 10rem;
-    justify-content: center;
-}
-
-.gift-title-text {
+.rsvp-title-text {
     display: flex;
     color: rgb(59, 49, 22);
     font-size: 2rem;
     font-weight: 100;
     align-items: center;
+    text-align: center;
     flex-direction: column;
+    padding-bottom: 2.5rem;
 
     .link-text {
         font-size: 1.5rem;
@@ -59,7 +53,7 @@
     }
 }
 
-.gift-link-container {
+.rsvp-link-container {
     display: flex;
     color: rgb(59, 49, 22);
     font-size: 1rem;
@@ -68,24 +62,45 @@
     justify-content: center;
 }
 
+.rsvp-form {
+    display: flex;
+    height: inherit;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+input.rsvp-form-field-1, .rsvp-form-field-1:focus, .rsvp-form-field-1:valid{
+    color: rgb(59, 49, 22);
+    font-family: 'Poppins', sans-serif;
+    width: 25rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: rgb(59, 49, 22);
+    border-bottom-width: .1rem;
+    background: none;
+    outline: none;
+}
+
 @media screen and (max-width: 1200px) {
-    #gift-section {
+    #rsvp-section {
         margin: 0rem;
     }
 
-    .gift-pic-container  {
+    .rsvp-pic-container  {
         height: 19rem;
         overflow-x: hidden;
         padding-bottom: 2.5rem;
     }
 
-    .gift-text {
+    .rsvp-text {
         top: 8rem;
         width: max-content;
-    }
-
-    .collective-gift-info{
-        gap: 2.5rem;
-        flex-direction: column;
     }
 }

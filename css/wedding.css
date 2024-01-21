@@ -21,7 +21,7 @@
 
 .wedding-text-p1 {
     color: white;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: 200;
 }
 
@@ -41,7 +41,7 @@
 
 .wedding-info-sub-title-text {
     color: rgb(59, 49, 22);
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .reception-rhubarb-text {
@@ -56,7 +56,7 @@
 
 .rhubarb-address-text {
     color: rgb(59, 49, 22);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 
@@ -145,18 +145,34 @@
         padding-bottom: 4rem;
         margin: 0rem;
     }
+    
     .wedding-pic-container
     {
         height: 19rem;
         overflow-x: hidden;
         padding-bottom: 2.5rem;
     }
+    
     .wedding-text{
         top: 8rem;
         width: max-content;
     }
+    
     .wedding-info{
         gap: 2.5rem;
         flex-direction: column;
+    }
+    
+    .wedding-text-p1 {
+        font-size: 2.5rem;
+    }
+    
+    .wedding-info-sub-title-text {
+        font-size: 2rem;
+    }
+
+    .rhubarb-address-text{
+        font-size: 1.5rem;
+        font-weight: 100;
     }
 }

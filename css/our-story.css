@@ -15,7 +15,7 @@
 .our-story-title {
     display: flex;
     color: rgb(59, 49, 22);
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 1rem;
     justify-content: center;
 }
@@ -26,10 +26,10 @@
 
 .our-story-text-p4 {
     color: rgb(59, 49, 22);
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 2rem;
+    font-weight: 100;
     word-spacing: .19rem;
-    line-height: 1.8rem;
+    line-height: 2.8rem;
     padding-bottom: 1.5rem;
 }
 
@@ -37,9 +37,17 @@
     #our-story-section{
         padding-bottom: 2.5rem;
     }
+    
     .our-story-title{
         padding-bottom: 2.5rem;
+        font-size: 2rem;
     }
+    
+    .our-story-text-p4{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    
     .our-story-pic-container
     {
         height: 20.5rem;
@@ -47,12 +55,15 @@
         padding-bottom: 2.5rem;
 
     }
+    
     .our-story-side-image{
         visibility: hidden;
     }
+    
     .our-story-middle-image{
         height: 20.5rem;
     }
+    
     .our-story-text-4{
         padding: 0vh 0vh;
         margin: 0rem 1.5rem;

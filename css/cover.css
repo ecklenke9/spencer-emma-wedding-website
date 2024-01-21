@@ -22,20 +22,42 @@
 
 .cover-text-p1 {
     color: white;
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 5rem;
+    font-weight: 500;
     visibility: visible;
 }
 
-.cover-text-p2 {
-    height: 0rem;
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 200;
-    visibility: hidden;
+.invite-text-p1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 49, 22);
+    font-size: 4rem;
+    font-weight: 400;
 }
 
-.invite-text{
+.invite-text-p2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 49, 22);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.invite-text-p3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 49, 22);
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.invite-text-p4{
     display: flex;
     text-align: center;
     align-items: center;
@@ -43,33 +65,51 @@
     color: rgb(59, 49, 22);
     font-size: 2rem;
     font-weight: 200;
+    padding: 3rem 0rem;
 }
 
 @media screen and (max-width: 1200px) {
     #cover {
         padding-bottom: 2.5rem;
     }
+
     .cover-pic-container
     {
         height: 19rem;
         overflow-x: hidden;
         padding-bottom: 2.5rem;
     }
+
     .cover-text{
         top: 8rem;
     }
+
     .cover-text-p1 {
         height: 0rem;
-        visibility: hidden;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        padding: 0rem;
     }
-    .cover-text-p2 {
-        height: inherit;
-        visibility: visible;
-        padding-left: 1.2rem;
+
+    .invite-text-p1 {
+        font-size: 2rem;
+        font-weight: 300;
     }
-    .invite-text {
-        padding: 0rem 1rem;
-        font-size: 1.4rem;
+
+    .invite-text-p2 {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .invite-text-p3 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .invite-text-p4 {
+        padding: 2rem 0rem;
+        font-size: 1.2rem;
         font-weight: 300;
     }
 }

@@ -22,14 +22,14 @@
 
 .travel-text-p1 {
     color: white;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: 200;
 }
 
 .places-to-stay-title {
     display: flex;
     color: rgb(59, 49, 22);
-    font-size: 2rem;
+    font-size: 3rem;
     justify-content: center;
     padding-bottom: 4rem;
 }
@@ -56,8 +56,8 @@
 .hotel-title-text-p {
     color: rgb(59, 49, 22);
     width: 20rem;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 2.5rem;
+    font-weight: 500;
     text-align: center;
     padding-bottom: .5rem;
     padding-top: 1rem;
@@ -65,8 +65,8 @@
 
 .hotel-link {
     color: rgb(59, 49, 22);
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 100;
     padding-bottom: .5rem;
 }
 
@@ -86,8 +86,10 @@
 
 .link-text {
     color: rgb(59, 49, 22);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 100;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -115,5 +117,21 @@
         width: 18.75rem;
         background-size: cover;
         overflow-x: hidden;
+    }
+    
+    .travel-text-p1 {
+        font-size: 2.5rem;
+    }
+    
+    .places-to-stay-title {
+        font-size: 2rem;
+    }
+
+    .hotel-title-text-p {
+        font-size: 1.5rem;
+    }
+
+    .hotel-link{
+        font-size: 1.5rem;
     }
 }

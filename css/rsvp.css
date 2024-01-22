@@ -21,7 +21,7 @@
 
 .rsvp-text-p1 {
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 200;
 }
 
@@ -101,5 +101,13 @@ input.rsvp-form-field-1, .rsvp-form-field-1:focus, .rsvp-form-field-1:valid{
     .rsvp-text {
         top: 8rem;
         width: max-content;
+    }
+
+    .rsvp-text-p1 {
+        font-size: 2.5rem;
+    }
+
+    .rsvp-title-text {
+        font-size: 1.5rem;
     }
 }

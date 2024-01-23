@@ -182,7 +182,7 @@
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 50%;
-    background-color: rgb(201, 187, 208, 1);
+    background-color: rgb(192,161,178);
 }
 
 .circle-6 {
@@ -196,14 +196,14 @@
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 50%;
-    background-color: rgb(182, 132, 69);
+    background-color: rgb(99,122,164);
 }
 
-.circle-7 {
+.circle-8 {
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 50%;
-    background-color: rgb(99,122,164);
+    background-color: rgb(182, 132, 69);
 }
 
 @media screen and (max-width: 1200px) {

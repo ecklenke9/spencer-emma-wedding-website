@@ -92,6 +92,16 @@
     padding-bottom: 1rem;
 }
 
+.airbnbs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 30rem;
+}
+
 @media screen and (max-width: 1200px) {
     #travel-section {
         margin: 0rem;
@@ -133,5 +143,10 @@
 
     .hotel-link{
         font-size: 1.5rem;
+    }
+
+    .airbnbs{
+        font-size: 1.5rem;
+        width: 20rem;
     }
 }
